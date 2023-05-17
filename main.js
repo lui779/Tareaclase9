@@ -7,7 +7,7 @@ Es posible copiar y pegar el último item y luego reemplazar los valores,
 ¡Pero cuidado con la sintaxis! Recuerden que los ítems de un array estan separados por comas.
 */
 
-let pokemons = [
+let pokemon = [
     {
         nombre: 'Bulbasaur',
         tipo: 'Planta',
@@ -46,11 +46,11 @@ Al mismo <li> debemos agregarle la imagen y el tipo de Pokemon. Para esto repita
 
 //
 function crearHTMLPokemon(pokemon) {
-  let nombrePokemon = document.createElement('h3');
-  nombrePokemon.innerText = pokemon.nombre;
+  let Bulbasaur = document.createElement('h3');
+  Bulbasaur.innerText = pokemon.Bulbasaur;
 
   let imagenPokemon = document.createElement('img');
-  imagenPokemon.src = pokemon.img;
+  imagenPokemon.src = Bulbasaur.img;
   
   let tipoPokemon = document.createElement('p');
   tipoPokemon.innerText = pokemon.tipo;
