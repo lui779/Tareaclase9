@@ -8,7 +8,7 @@ Es posible copiar y pegar el último item y luego reemplazar los valores,
 */
 
 let pokemons = [
-    {
+    { 
         nombre: 'Bulbasaur',
         tipo: 'Planta',
         img: 'https://jusrecondo.github.io/hosted-assets/bulbasaur.png'
@@ -46,17 +46,17 @@ Al mismo <li> debemos agregarle la imagen y el tipo de Pokemon. Para esto repita
 
 //
 function crearHTMLPokemon(pokemon) {
-  let Bulbasaur = document.createElement('h3');
-  Bulbasaur.innerText = pokemon.Bulbasaur;
+  let nombrePokemon = document.createElement('h3');
+  nombrePokemon.innerText = pokemon.Bulbasaur;
 
   let imagenPokemon = document.createElement('img');
-  imagenPokemon.src = Bulbasaur.png;
+  imagenPokemon.src = bulbasaur.png;
   
   let tipoPokemon = document.createElement('p');
   tipoPokemon.innerText = pokemon.planta;
   
   let listItem = document.createElement('li');
-  listItem.appendChild(Bulbasaur);
+  listItem.appendChild(nombrePokemon);
   //Escribir las líneas de código aquí una debajo de la otra
  
   
@@ -71,7 +71,8 @@ Su tarea:
 Dentro de la función, falta crear una variable llamada pokemonListItem y asignarle un nuevo pokemon llamando a la funcion crearHTMLPokemon(pokemon)
 La última línea del código se ocupa de lo demás 😉
 */
-pokemons.forEach(function(pokemon) {
+pokemons.forEach(function(pokemonListItem) {
+
   //Escribir aquí la línea de código faltante
 
   listaPokemons.appendChild(pokemonListItem);
