@@ -23,6 +23,16 @@ let pokemons = [
         tipo: 'Hada',
         img: 'https://jusrecondo.github.io/hosted-assets/togepi.png'
     },
+    {
+        nombre: 'charmander',
+        tipo: 'Dragon',
+        img: 'https://jusrecondo.github.io/hosted-assets/charmander.png'
+    },
+    {
+        nombre: 'Meowth',
+        tipo:'Gato',
+        img: 'https://jusrecondo.github.io/hosted-assets/meowth.png'
+    },
 ];
 
 /* 2 - Esta función crearHTMLPokemon(pokemon) crea un el código HTML de un elemento <li> con los datos del Pokemon 
