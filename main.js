@@ -47,9 +47,9 @@ Al mismo <li> debemos agregarle la imagen y el tipo de Pokemon. Para esto repita
 */
 
 //
-function crearHTMLPokemon(pokemon) {
+/*function crearHTMLPokemon(pokemon) {
   let nombrePokemon = document.createElement('h3');
-  nombrePokemon.innerText = pokemon.Bulbasaur;
+  nombrePokemon.innerText = pokemon.bulbasaur;
 
   let imagenPokemon = document.createElement('img');
   imagenPokemon.src = bulbasaur.png;
@@ -58,14 +58,14 @@ function crearHTMLPokemon(pokemon) {
   tipoPokemon.innerText = pokemon.planta;
   
   let listItem = document.createElement('li');
-  listItem.appendChild(nombrePokemon);
+  listItem.appendChild(nombrePokemon);*/
 
 
   //Escribir las líneas de código aquí una debajo de la otra
  
   
-  return listItem;
-}
+  //return listItem;
+//}
 
 //Aquí estamos "seleccionado" al <ul> con id "pokemon-list" para luego poder trabajar con este elemento. No modificar.
 const listaPokemons = document.querySelector('#pokemon-list');
@@ -76,6 +76,7 @@ Dentro de la función, falta crear una variable llamada pokemonListItem y asigna
 La última línea del código se ocupa de lo demás 😉
 */
 pokemons.forEach(function(pokemonListItem) {
+
 
   //Escribir aquí la línea de código faltante
 
