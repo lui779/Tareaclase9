@@ -11,27 +11,27 @@ let pokemons = [
     { 
         nombre: 'Bulbasaur',
         tipo: 'Planta',
-        img: 'https://jusrecondo.github.io/hosted-assets/bulbasaur.png'
+        img: 'bulbasaur.png',
     },
     {
         nombre: 'Pikachu',
         tipo: 'Eléctrico',
-        img: 'https://jusrecondo.github.io/hosted-assets/pikachu.png'
+        img: 'pikachu.png',
     },
     {
         nombre: 'Togepi',
         tipo: 'Hada',
-        img: 'https://jusrecondo.github.io/hosted-assets/togepi.png'
+        img: 'topegi.png',
     },
     {
         nombre: 'Charmander',
         tipo: 'Dragon',
-        img: 'https://jusrecondo.github.io/hosted-assets/charmander.png'
+        img: 'charmander.png',
     },
     {
         nombre: 'Meowth',
         tipo:'Gato',
-        img: 'https://jusrecondo.github.io/hosted-assets/meowth.png'
+        img: 'meowth.png',
     },
 ];
 
