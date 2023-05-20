@@ -35,6 +35,8 @@ let pokemons = [
     },
 ];
 
+
+
 /* 2 - Esta función crearHTMLPokemon(pokemon) crea un el código HTML de un elemento <li> con los datos del Pokemon 
 que reciba como parámetro. Aquí hay herramientas de JS que veremos en la Clase 10.
 --> createElement('nombreElementoHtml') es un método del Documento HTML que crea un elemento HTML cualquiera.
@@ -57,6 +59,8 @@ function crearHTMLPokemon(pokemon) {
   
   let listItem = document.createElement('li');
   listItem.appendChild(nombrePokemon);
+
+
   //Escribir las líneas de código aquí una debajo de la otra
  
   
