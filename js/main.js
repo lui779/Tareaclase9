@@ -1,4 +1,4 @@
-//¡Les damos la bienvenida a este desafío!
+        //¡Les damos la bienvenida a este desafío!
 //Cuando terminemos, ¡la página debería estar llena de Pokemons!
 
 /* 1 - Este es un array que contiene objetos, cada objeto es un Pokemon.
@@ -6,6 +6,7 @@ Su primer tarea será agregar al menos 2 pokemones más (pueden cambiar todos si
 Es posible copiar y pegar el último item y luego reemplazar los valores, 
 ¡Pero cuidado con la sintaxis! Recuerden que los ítems de un array estan separados por comas.
 */
+
 
 let pokemons = [
     {
@@ -21,8 +22,8 @@ let pokemons = [
     {
         nombre: 'Togepi',
         tipo: 'Hada',
-        img: 'https://jusrecondo.github.io/hosted-assets/togepi.png'        
-    },
+        img: 'https://jusrecondo.github.io/hosted-assets/togepi.png'
+    },    
     {
         nombre: 'Squirtle',
         tipo: 'Agua',
@@ -32,17 +33,17 @@ let pokemons = [
         nombre: 'Jigglypuff',
         tipo: 'Normal',
         img: 'https://jusrecondo.github.io/hosted-assets/jigglypuff.png'
-
-    },
+    }
 ];
 
-/* 2 - Esta función crearHTMLPokemon(pokemon) crea un el código HTML de un elemento <li> con los datos del Pokemon 
-que reciba como parámetro. Aquí hay herramientas de JS que veremos en la Clase 10.
+/* 2 - Esta función crearHTMLPokemon(pokemon) crea un el código HTML de un elemento <li> con los datos 
+del Pokemon que reciba como parámetro. Aquí hay herramientas de JS que veremos en la Clase 10.
 --> createElement('nombreElementoHtml') es un método del Documento HTML que crea un elemento HTML cualquiera.
 --> appendChild(item) es un método que tienen los elementos HTML y permite "agregarles un elemento hijo".
 Donde dice listItem.appendChild(nombrePokemon); Esto le agrega al <li> el <h3> con el nombre del Pokemon.
 Su tarea:
-Al mismo <li> debemos agregarle la imagen y el tipo de Pokemon. Para esto repitan esa última línea de código 2 veces más pero pasando como argumento al método appendChild() primero imagenPokemon y luego tipoPokemon
+Al mismo <li> debemos agregarle la imagen y el tipo de Pokemon. Para esto repitan esa última línea de código 
+2 veces más pero pasando como argumento al método appendChild() primero imagenPokemon y luego tipoPokemon
 */
 
 //
@@ -56,10 +57,8 @@ function crearHTMLPokemon(pokemon) {
   let tipoPokemon = document.createElement('p');
   tipoPokemon.innerText = pokemon.tipo;
   
-  let listItem = document.createElement('li');  
-  listItem.appendChild(nombrePokemon);
-  listItem.appendChild(imagenPokemon);
-  listItem.appendChild(tipoPokemon);
+  let listItem = document.createElement('li');
+  listItem.appendChild(pokemons);
   
   //Escribir las líneas de código aquí una debajo de la otra
  
@@ -76,8 +75,6 @@ Dentro de la función, falta crear una variable llamada pokemonListItem y asigna
 La última línea del código se ocupa de lo demás 😉
 */
 pokemons.forEach(function(pokemon) {
-    let pokemonListItem = crearHTMLPokemon(pokemon);
-    
   //Escribir aquí la línea de código faltante
 
   listaPokemons.appendChild(pokemonListItem);
